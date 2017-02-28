@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DataExchange_CYSGAJ:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataExchange_CYSGAJ_war</output-path>
+    <root id="archive" name="DataExchange_CYSGAJ_war.war">
+      <element id="artifact" artifact-name="DataExchange_CYSGAJ:war exploded" />
+    </root>
+  </artifact>
+</component>

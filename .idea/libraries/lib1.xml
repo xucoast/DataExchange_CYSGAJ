@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/jaxen-1.1-beta-6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-pool-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/woden-api-1.0M9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/httpcore-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/fastjson-1.1.40.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axis2-transport-http-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axiom-impl-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/slf4j-api-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/neethi-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/woden-impl-dom-1.0M9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axis2-kernel-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/ojdbc7-12.1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/woden-impl-commons-1.0M9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commonlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/XmlSchema-1.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/xmlparserv2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/guava-r07.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/PCI2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/mail-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-codec-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/oceansoft.dcn-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/RBSPAdapter2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axis2-transport-local-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axis2-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/xschema.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axis2-adb-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/wsdl4j-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/axiom-api-1.2.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/log4j-1.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/DataExchange_war_exploded/WEB-INF/lib/bonecp-0.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
