@@ -39,7 +39,7 @@ public class WzQueryPlugn implements IProcessor {
 // 查询车辆基本信息视图 发动机号
     private String vehicleInfoSql = "select count(*) num from trff_cy.V_SJ_VEHICLE where hphm=? and hpzl=? and fdjh like ?";
     // 查询朝阳交警违章视图 cyjj
-    private static String wzInfoSql = "select hpzl,hphm,wfdz,wfsj,wfjfs,fkje_dut,wfnr,clbj,cjjg from trff_cy.V_SJ_VIO_SERVEIL where clbj='0' and hphm=? and hpzl=?";
+    private static String wzInfoSql = "select hpzl,hphm,wfdz,wfsj,wfjfs,fkje_dut,wfnr,clbj,cjjg,wfjfs,vehzt,drvzt,zjcx,ljjf,sfzmhm from trff_cy.V_SJ_VIO_SERVEIL where clbj='0' and hphm=? and hpzl=?";
     @Override
     public String command() {
         return "010102";
@@ -119,6 +119,14 @@ public class WzQueryPlugn implements IProcessor {
                         offenseVehicleInfo.setClbj(wzResultSet.getString("clbj"));
                         // 采集机构
                         offenseVehicleInfo.setCjjg(wzResultSet.getString("cjjg"));
+                        // 车辆状态
+                        offenseVehicleInfo.setVehzt(wzResultSet.getString("vehzt"));
+                        // 驾驶证状态
+                        offenseVehicleInfo.setDrvzt(wzResultSet.getString("drvzt"));
+                        // 准驾车型
+                        offenseVehicleInfo.setZjcx(wzResultSet.getString("zjcx"));
+                        // 累计记分
+                        offenseVehicleInfo.setLjjf(wzResultSet.getString("ljjf"));
                         offenseVehicleInfos.add(offenseVehicleInfo);
                     }
                     if(offenseVehicleInfos.size()>0){

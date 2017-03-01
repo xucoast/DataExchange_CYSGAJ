@@ -47,6 +47,38 @@ public class OffenseVehicleInfo {
 
     private String cjjg; //采集机构代码
 
+    private String vehzt; // 车辆状态
+
+    private String drvzt; // 驾驶证状态
+
+    private String zjcx;  // 准驾车型
+
+    private String ljjf;  // 累计记分
+
+    public String getVehzt() {
+        return vehzt;
+    }
+
+    public void setVehzt(String vehzt) {
+        this.vehzt = vehzt;
+    }
+
+    public String getDrvzt() {
+        return drvzt;
+    }
+
+    public void setDrvzt(String drvzt) {
+        this.drvzt = drvzt;
+    }
+
+    public String getZjcx() {
+        return zjcx;
+    }
+
+    public void setZjcx(String zjcx) {
+        this.zjcx = zjcx;
+    }
+
     public String getJdcsyrmc() {
         return jdcsyrmc;
     }
@@ -197,5 +229,13 @@ public class OffenseVehicleInfo {
 
     public void setCjjg(String cjjg) {
         this.cjjg = cjjg;
+    }
+
+    public String getLjjf() {
+        return ljjf;
+    }
+
+    public void setLjjf(String ljjf) {
+        this.ljjf = ljjf;
     }
 }
