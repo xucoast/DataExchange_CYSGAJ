@@ -166,6 +166,13 @@ public class CivilNameQueryPlugin implements IProcessor {
                 }
             }
             //jdbcPool.close(connection);
+            try {
+                if(connection!=null && !connection.isClosed()) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         return respCmd;
     }
